@@ -1,0 +1,93 @@
+styles1b.css
+
+<!--background styling-->
+.background-wrap{
+	position: fixed;
+	z-index: -1000;
+	width: 100%;
+	height: 20%;
+	top: 0;
+	left:0;
+}
+.heading{
+    background-color: yellow;
+    text-align: center;
+    display: inline;
+    width: 50%;
+    height: 300px;
+    align-items: left;
+    justify-content: left;
+}
+
+body {background-image: url("1515032047ps.jpg");
+      background-repeat:no-repeat; 
+      center: center fixed; 
+      webkit-background-size: cover; 
+      moz-background-size: cover; 
+      o-background-size: cover; 
+      background-size: cover;
+	width:100vw;
+	background-color: lightblue; 
+}
+
+
+<!--first text styling-->
+.heading{
+	display:grid;
+	grid-template-columns: 30% 70%;
+}
+ .info{
+	background-color: #ffff99;
+	float: left;
+	font-family: Comic Sans MS;
+	text-decoration-color: yellow;
+	display: flex;
+	font-size: 40px;
+	color: dodgerblue;
+	width: 50%;
+	height:300px;
+	text-align:right;
+	}
+
+	.subtitle{
+		font-size:12px;
+	}
+
+.beach-boys{
+	display: inline-flex;
+		float: right;
+		width: 50%;
+		height:300px;
+	margin-top: 10px
+}
+
+.lyric12{
+	font-family: Comic Sans MS;
+	font-size: 20px;
+	display: inline-block;
+}
+.lyric1{
+	color:yellow;
+	float: left;
+}
+.lyric2{
+	color: yellow;
+	float: right;
+}
+.lyric3{
+	font-family: Comic Sans MS;
+	color:yellow;
+	font-size:20px;
+	display: right;
+}
+.lyric4{
+	font-family: Comic Sans MS;
+	color: yellow;
+	font-size: 20px;
+	display: left;
+}
+
+.video{
+	float: right;
+	margin-bottom: 10px;
+}

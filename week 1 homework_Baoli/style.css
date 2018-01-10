@@ -1,0 +1,108 @@
+style.css
+*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+	position: absolute;
+	overflow:hidden;
+}
+li{
+	float: left;
+	margin-top: 0;
+}
+.nav{
+	width: 100%;
+	height: 300px;
+	margin-top: 0;
+}
+a {
+	display:block;
+	front-weight:bold;
+	color:yellow;
+	background-color:blue;
+	width:400px;
+	text-align: right;
+	height: 200px;
+	padding: 4px;
+	text-transform: uppercase;
+}
+
+section{
+/*    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px;*/
+    display: flex;
+    flex-wrap: wrap;
+}
+.heading{
+    width:50%; 
+    height: 400px;
+    float: left;
+    background-color: lightblue;
+}
+.beach-boys{
+ width:50%; height: 400px; 
+float: right;
+ top:10px;}
+
+ .firstvideo{
+	display: block;
+}
+.text feature-img{
+	width:50%;
+	right: 10px;
+	margin: 0;
+}
+.beach-boys:{background: url (1515032047.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.background-wrap{
+	position: fixed;
+	z-index: -1000;
+	width: 100%;
+	height: 20%;
+	top: 0;
+	left:0;
+}
+.info{
+    background: transparent;
+    color: #F1C40F;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.text div{
+
+    width: 50%;
+    height: 50px;
+}
+.subtitle{font-size: 12px}
+body {background-image: url("1515032047.jpg");
+      background-repeat:no-repeat; center: center fixed; webkit-background-size: cover; moz-background-size: cover; o-background-size: cover; background-size: cover;
+	width:100vw;
+	background-color: lightblue; }
+
+.heading{
+	background-color:khaki;
+	}
+h1 {background-color: Khaki;
+	text-decoration; underline;
+}
+p{
+	text-align: center;
+	color: #FFC300  ;
+	font-size: 20px;
+}
+.video2{
+	float: right;
+}
